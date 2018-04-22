@@ -34,3 +34,8 @@ apt install -y skypeforlinux
 #tor
 #wget https://www.torproject.org/dist/torbrowser/8.0a1/tor-browser-linux64-8.0a1_en-US.tar.xz
 #tar -xvJf tor-browser-linux64-8.0a1_en-US.tar.xz
+
+apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7
+echo 'deb https://repo.windscribe.com/ubuntu xenial main' | sudo tee /etc/apt/sources.list.d/windscribe-repo.list
+apt update
+apt install -y windscribe-cli
