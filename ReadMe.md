@@ -3,14 +3,14 @@
 **Cài từng gói một**
 Tuỳ biến tốt, lỗi ở đâu thì sẽ dễ rò hơn
 ```shell
-git clone https://github.com/TechMaster/UbuntuAutoInstallScript.git
-cd UbuntuAutoInstallScript
+git clone https://github.com/otakus007/reinstall-script.git
+cd reinstall-script
 sudo ./TheScriptYouWantToInstall.sh
 ```
 **Cài tất cả trong một script**
 Mất khoảng hơn tiếng. Rất nhàn nhưng đôi khi phát sinh lỗi sẽ khó sửa
 ```
-curl -s https://raw.githubusercontent.com/TechMaster/UbuntuAutoInstallScript/master/install.sh | sudo sh
+curl -s https://raw.githubusercontent.com/otakus007/reinstall-script/master/install.sh | sudo sh
 ```
 
 **Danh sách các file shell tự động cài đặt**
